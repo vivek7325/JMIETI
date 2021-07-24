@@ -1,0 +1,106 @@
+#clg-name
+{
+    text-align: center;
+    text-transform:none;
+
+}
+body{
+    background-image:linear-gradient(to bottom, rgba(23, 177, 216, 0.5), rgba(24, 214, 34, 0.438)),url('Jmieti View.jpg');
+    background-repeat: no-repeat;
+    background-size:1920px 800px;
+
+}
+#clg-logo
+{
+    border-radius: 75vh;
+    padding: 3px 15px;
+}
+#clg-name
+{
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 6vh;
+}
+li
+{
+    display: inline;
+    float:right;
+}
+li a
+{
+    display:block;
+    text-align: center;
+    padding:14px 20px;
+    text-decoration: none;
+    color:red;
+    
+}
+li a:hover
+{
+    background-color:#111;
+}
+.navbar
+{
+    overflow: hidden;
+    background-color: #333;
+}
+.navbar a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover
+{
+    background-color:black;
+    color:rgb(0, 255, 106);
+
+}
+.footer
+{
+text-align:center;
+position: absolute;
+bottom: 0;
+text-align:center;
+padding: 1px;
+background-color:#333;
+Color:white;
+font-weight:bolder;
+flex-wrap: wrap;
+border-radius:12px;
+width: 100%;
+
+}
+.but
+{
+    background-color: #f44336;
+    color: white;
+    padding: 15px 130px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 35%;
+}
+.btn-text-center
+{
+    text-align: center;
+}
+#button
+{
+    align-items: center;
+
+}
+.but:hover{
+    background-color: #4CAF50;
+    color: white;
+}
