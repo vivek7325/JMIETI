@@ -1,0 +1,40 @@
+h2{
+    text-align: center;
+}
+.but1
+{
+    background-color: green;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius:10%;
+}
+.but2
+{
+    background-color: #f44336;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius:10%;
+}
+input[type=text], input[type=email],input[type=age]{
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  body{
+      background-color: #333;
+      color: white;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  div
+  {
+      align-items: center;
+  }
+  
+  
